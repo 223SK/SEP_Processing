@@ -1,0 +1,8 @@
+<html><body><pre>
+<span style="color: #006699;">point</span>(20,20);
+<span style="color: #006699;">point</span>(100, 100);
+<span style="color: #666666;">//&nbsp;Needed&nbsp;to&nbsp;put&nbsp;stroke&nbsp;*before*&nbsp;the&nbsp;line.&nbsp;Just&nbsp;like&nbsp;&quot;pen&nbsp;down&quot;&nbsp;in&nbsp;Scratch.&nbsp;</span>
+<span style="color: #006699;">stroke</span>(80, 187, 80);
+<span style="color: #006699;">line</span>(20,20,100,100);
+
+</pre></body></html>
