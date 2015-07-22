@@ -14,3 +14,5 @@ fill(#424242);
 ellipse(50,50,30,30);
 ellipse(150,50,30,30);
 
+text("hello",10,200);
+text("I am a smiley face",10, 220);
