@@ -1,12 +1,12 @@
-float circleX=random(0, 800);
-float circleY=random(0, 800);
+float circleX=random(0, width);
+float circleY=random(0, height);
 int xDirection=1;
 int yDirection=1;
 float speed=10.5;
 
 
 void setup() {
-  size(1440, 900);
+  size(800, 800);
   background(255, 255, 255);
 }
 
@@ -26,8 +26,12 @@ void draw() {
   } else if (circleY<=0) {
     yDirection=yDirection*-1;
   }
+  println("circleX: "+ circleX, "circleY: "+ circleY);
 }
+
 
 void keyPressed(){
   background(255,255,255);
 }
+
+
