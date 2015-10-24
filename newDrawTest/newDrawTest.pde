@@ -6,7 +6,8 @@ float speed=10.5;
 
 
 void setup() {
-  size(800, 800);
+  fullScreen();
+  //size(800, 800);
   circleX=random(0, width);
   circleY=random(0, height);
   background(255, 255, 255);
@@ -37,4 +38,3 @@ void draw() {
 void keyPressed() {
   background(255, 255, 255);
 }
-

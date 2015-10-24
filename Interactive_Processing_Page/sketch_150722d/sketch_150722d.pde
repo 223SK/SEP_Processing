@@ -1,5 +1,6 @@
 void setup(){
-  size(512,512);
+  fullScreen();
+  //size(512,512);
   noCursor();
   rectMode(CENTER);
   background(255,255,255);
