@@ -58,5 +58,5 @@ void loop() {
   delay(1000);              // wait for a second
 }
 ```
-On 12 hours of ambient Enterprise noise: 
+On 12 hours of ambient Enterprise noise:
 > Matt: "As long as you get used to sleeping in the Enterprise..."
