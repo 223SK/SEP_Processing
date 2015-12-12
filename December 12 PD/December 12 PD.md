@@ -9,17 +9,13 @@
 Declare a set of pins
 ```java
 int ledPins[]={2,3,4,5,6,7,8,9};
-//            |0|1|2|3|4|5|6|7|
+// indexing   |0|1|2|3|4|5|6|7|
 ```
 Using an array is more efficient than declaring line by line.
 
 ```java
 int index;
 
-// In this sketch, we'll use "for() loops" to step variables from
-// one value to another, and perform a set of instructions for
-// each step. For() loops are a very handy way to get numbers to
-// count up or down.
 
 // Every for() loop has three statements separated by
 // semicolons (;):
@@ -38,20 +34,6 @@ int index;
 //                    "add one to it".
 //			(You can also use "index = index + 1".)
 
-// Every time you go through the loop, the statements following
-// the for() (within the brackets) will run.
-
-// When the test in statement 2 is finally false, the sketch
-// will continue.
-
-
-// Here we'll use a for() loop to initialize all the LED pins
-// to outputs. This is much easier than writing eight separate
-// statements to do the same thing.
-
-// This for() loop will make index = 0, then run the pinMode()
-// statement within the brackets. It will then do the same thing
-// for index = 2, index = 3, etc. all the way to index = 7.
 for(index = 0; index <= 7; index++)
   {
     pinMode(ledPins[index],OUTPUT);
